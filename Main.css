@@ -30,7 +30,7 @@
 .task:hover{
     background-color:darkcyan;
     opacity: 0.6;
-    font-size: 1vw;
+    font-size: 1.1vw;
     transition: all 600ms ease; 
     
 }
