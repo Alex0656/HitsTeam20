@@ -1,0 +1,37 @@
+.top{
+    display: block;
+    text-align:center;
+    background-color: black;
+    color:rgb(11, 240, 240);
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabletasks{
+    table-layout: fixed;
+    margin-top: 100px;
+    height: 250px;
+    width: 100%;
+}
+
+.task{
+    background-color: black;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.25vw;
+    opacity: 1;
+    
+}
+
+.task:hover{
+    background-color:darkcyan;
+    opacity: 0.6;
+    font-size: small;
+    transition: all 600ms ease; 
+    
+}
+
