@@ -13,7 +13,7 @@ const ERASER = {
     y: 0,
 };
 
-//let n = prompt("Размер матрицы")
+//let n = prompt("Размер матрицы")1
 let n = 20
 if (n % 2 === 0) {
     n++;
