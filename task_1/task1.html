@@ -6,17 +6,29 @@
 </head>
 <body>
     <h1>Алгоритм А*</h1>
+    
     <canvas class="pole"></canvas>
-    <script src="maze_01.js"></script>
-    <link rel ="stylesheet" href ="task1.css">
+    
+    
     <div> 
-        <canvas class ="pole_mini"></canvas>
-        <label class = "pole_mini"> Значение матрицы</label>
-        <input name = "n" type="number"/>
+        <label for="radi11">Размер 11</label><input name="radio-i" type="radio" id="radi11" value="11" >
+        <label for="radi19">Размер 19</label><input name="radio-i" type="radio" id="radi19" value="19">
+        <label for="radi51">Размер 51</label><input name="radio-i" type="radio" id="radi51" value="51">
+        <label for="radi101">Размер 101</label><input name="radio-i" type="radio" id="radi101" value="101">
     </div>
-    
-    
+    <div>
+        <label for="radio2">Пустое поле</label><input name="radio-in" type="radio" id="radio2">
+        <label for="radio3">Стена</label><input name="radio-in" type="radio" id="radio3">
+        <label for="radio0">Старт</label><input name="radio-in" type="radio" id="radio0">
+        <label for="radio1">Финиш</label><input name="radio-in" type="radio" id="radio1">
+        <label for="checkbox"> Анимация</label><input name="checkbox-in" id="checkbox1" type="checkbox">
+        <button id='newButton'>Поиск пути</button>
+        <button id='newButton1'>Генерация</button>
+    </div>
+
     
 
 </body>
-</html
+<link rel ="stylesheet" href ="task1.css">
+<script src="neww.js"></script>
+</html>

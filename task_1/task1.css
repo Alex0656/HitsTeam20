@@ -6,23 +6,19 @@ h1{
     color: rgb(11, 240, 240);
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 60%;
 }
 
 .pole{
     margin-left: 80px;
     margin-top: 20px;
-    width: 32%;
-    height: 32%;
 }
 .pole_mini{
     display: block;
-    margin-left: 80px;
-    margin-top: 10px;
+    margin-left: 500px;
+    margin-top: 100px;
     border: 2px solid black ;
     height: 60px;
     width: 530px;
-    width: 32%;
 }
 
 .qwe{
@@ -33,3 +29,7 @@ h1{
     margin-top: 700;
 
 } 
+/* .Main_canvas {
+    width: 1000px;
+    height: 1000px;
+} */
