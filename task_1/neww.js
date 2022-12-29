@@ -2,6 +2,7 @@ const canvas = document.querySelector("canvas");
 const context = canvas.getContext("2d");
 const mouse = createMouse(canvas);
 
+
 const BACKGROUND_COLOR = "gray";
 const WALL_COLOR = "black";
 const FREE_COLOR = "white";
